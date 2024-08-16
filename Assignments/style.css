@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    background-size: cover;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-image: url(images/backkgroundd.jpg);
+    min-height: 300px;
+    position: relative;
+    
+    
+}
+.headerMenu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.logo  {
+    width: 167px;
+    height: 32px;
+    top: 28px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.middleMenu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color:  rgba(255, 255, 255, 1);
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+.middleMenu a{
+    text-decoration: none;
+    color: white;
+}
+.coloredText {
+    color:rgba(235, 102, 43, 1);
+
+}
+
+.rightMenu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14.53px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.rightMenu a{
+    text-decoration: none;
+    color: white;
+}
+.bordered {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 2px;
+}
+.mainText h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -70px;
+    padding-left: 20px;
+    
+}
+.mainText p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.middleText{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px; 
+    position: relative;
+}
+.boldText{
+    width: 909.84px;
+    height: 175px;
+    top: 246px;
+    left: 505.17px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;  
+    font-family: sans-serif;  
+    text-align: center;
+    justify-content: center;
+}
+
+.forSearch{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+    width: 100px;
+    height: 70px;
+    margin-top: 250px;
+   
+
+}
+.searchContainer{
+    max-width: 470px;
+    position: relative;
+}
+
+
+.searchContainer input {
+    background-color: white;
+    padding: 10px 15px 10px 60px;
+    width: 100%;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 14px;
+}
+.searchContainer img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    left: 12px;
+    gap: 0px;
+   
+    
+}
+.textText p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+    margin-top: 290px;
+    
+}
+.optionMenu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 380px;
+    font-family: sans-serif;
+}
+.optionMenu a{
+    text-decoration: none;
+    color: white;
+}
+.optionMenu ul li{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 25px;
+    padding: 10px;
+}
+.card_container_main .main_title span  {
+    color: #c6c6d2;
+   
+}
+.cards_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.card_container_main .main_title{
+    color: #05073c;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    font-family: sans-serif;
+}
+.cards img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+.cards{
+    border: 1px solid #E7E6E6 ;
+    border-radius: 12px;
+}
+.down_container{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.titles_container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.card_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location{
+    color: #717771;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 8px;
+
+}
+.dimension{
+    text-align: center;
+    color: #05073c;
+}
+.hr{
+    background-color: #E7E6E6;
+    height: 1px;
+    width: 100%;
+}
+.card_container_main{
+    width: 100%;
+    max-width: 1320px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.photoPart .promotions{
+    font-family: sans-serif;
+    font-size: 14.65px;
+    font-weight: 400;
+    width: 277.48px;
+    height: 28.13px;
+
+}
+.photoPart{
+    background-image: url(images/33.jpg) ;
+}
+.thirdPart p{
+    color: white;
+    font-size: 20px;
+}
+.photoPart2{
+    background-image: url(22.jpg);
+   
+    
+}
+.photoPart2 .promotions2{
+    font-family: sans-serif;
+    font-size: 14.65px;
+    font-weight: 400;
+    width: 277.48px;
+    height: 28.13px;
+}
+.photoPart3{
+    background-image: url(44.jpg);
+    
+    
+    
+}
+.thirdPart {
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 220px;
+    max-width: 1500px;
+}
+.thirdPart .inside_box1{
+    border-radius: 12px;
+width: 410px;
+height: 350px;
+background-position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+  transition: 0.5s ease;
+    cursor: pointer;
+}
+.thirdPart .inside_box1{
+    background-image: url(images/33.jpg);
+}
+.thirdPart .inside_box1 p{
+    padding: 40px 40px 7px;
+font-size: 15px;
+}
+.thirdPart .deals-texts {
+    padding: 7px 40px;
+  line-height: 36px;
+  font-size: 16px;
+}
+.thirdPart .click2{
+    padding: 100px 40px;
+}
+.click2 button{
+    padding: 17px 60px 17px 36px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  border: #fff;
+}
+.thirdPart .inside_box2{
+    border-radius: 12px;
+width: 410px;
+height: 350px;
+background-position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+  transition: 0.5s ease;
+    cursor: pointer;
+}
+.thirdPart .inside_box2{
+    background-image: url(images/22.jpg);
+}
+.thirdPart .inside_box2 p{
+    padding: 40px 40px 7px;
+font-size: 15px;
+}
+.thirdPart .deals-texts {
+    padding: 7px 40px;
+  line-height: 36px;
+  font-size: 16px;
+}
+.thirdPart .inside_box3{
+    border-radius: 12px;
+width: 410px;
+height: 350px;
+background-position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.thirdPart .inside_box3{
+    background-image: url(images/44.jpg);
+}
+.thirdPart .inside_box3 p{
+    padding: 40px 40px 7px;
+font-size: 15px;
+}
+.click2 button{
+    padding: 17px 60px 17px 36px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  border: #fff;
+}
+
+.tourz{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.flexibility{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.allowed{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.back-background{
+    background-color: rgba(235, 102, 43, 0.05);
+    width: 100%;
+    max-width: 1250px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.cap-img img{
+    width: 610px;
+    height: 600px;
+}
+.amount{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}
+.defination{
+    font-size: 15px;
+    font-weight: 400;
+}
+.icons_part{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 90px;
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.night_view{
+    background-image: url(images/night_photo.jpg);
+    display: flex;
+    padding: 100px;
+}
+.flexible{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+.Reserve{
+    font-size: 15px;
+    font-weight:400 ;
+    font-family: sans-serif;
+    color: white;
+}
+.trending_destinations .trending .see_all{
+    color: rgba(5, 7, 60, 1);
+    
+}
+.trending_destinations .trending{
+    font-size: 30px;
+font-weight: 700;
+font-family: sans-serif;
+margin-bottom: 30px;
+}ni
+.trending_destinations .see_all{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.places{
+    font-weight: 500;
+    font-size: 17.60px;
+    font-family: sans-serif;
+}
+.tours{
+    font-size: 13.28;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.Destinations{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+}
+.paris img{
+    width: 100%;
+    border-radius: 12px;
+}
+.trending_destinations{
+    padding: 0 20px;
+}
+.first_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourthPart {
+   background-color: rgba(235, 102, 43, 0.05);
+
+    width: 1920px;
+    height: 200px;
+
+}
+.button{
+    background-color: rgba(235, 102, 43, 1);
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    border-color: rgba(235, 102, 43, 1);
+}
+.fourthPart h4{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.fourthPart p{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.traveling{
+    font-weight: 700;
+    font-size: 29.60px;
+    font-family: sans-serif;
+}
+.seee_alll{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.first_titleee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Trips{
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+}
+.main_photos img{
+    width: 100%;
+    border-radius: 12px;
+}
+.travel-articles{
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1320px;
+}
+.starter{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.click-click{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.slides{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+}
+.begining{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first_titleee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+.bold_title{
+    font-weight: 700;
+    font-size: 29.60px;
+    font-family: sans-serif;
+}
+
+.bold_title{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.rating{
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+}
+.main_photos img{
+    width: 100%;
+    border-radius: 12px;
+}
+.travelers_t{
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1920px;
+    background-color:  rgba(235, 102, 43, 0.05);
+    
+}
+.for_background{
+    background-color: white;
+    max-width: 409px;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    color:  rgba(235, 102, 43, 1);
+    
+}
+.hr2{
+    width: 349px;
+}
+.first_titleee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+.purpleBack{
+    background-image: url(images/man.png);
+}
+.foreign{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 386px;
+    margin-top: 20px;
+}
+.subscribtion{
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.purpleBack input{
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px, solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.purpleBack12{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 1920px;
+height: 498.13px;
+top: 6885.08px;
+gap: 0px;
+
+
+}
+.finalPart{
+    background-color: rgba(5, 7, 60, 1);
+    width: 1920px;
+height: 725.25px;
+top: 7383.2px;
+gap: 0px;
+opacity: 0px;
+
+    
+}
+.finalPart p{
+    color: white;
+}
